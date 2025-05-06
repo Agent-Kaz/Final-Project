@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Underdog&display=swap');
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+    background-color: #000000;
+    color: #E0E0E0;
+}
+
+/* Website Links except the nav */
+a:link {
+    color: #FFD700;
+}
+a:visited {
+    color: #FFD700; 
+}
+a:hover {
+    color: #FFFFFF;
+}
+a:active {
+    color: #FF4500;
+}
+
+header {
+    text-align: center;
+}
+
+/* Navigation */
+nav {
+    background-color: #333333;
+    border-top: 2px solid #FFD700;
+    border-bottom: 1.5px solid #FFD700;
+    padding: 5px;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    margin: 8px 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    padding: 5px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav a:link {
+    color: #FFD700;
+}
+
+nav a:visited {
+    color: #FFD700;
+}
+
+nav a:hover {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+nav a:active {
+    color: #FF4500;
+}
+
+header h1 {
+    font-family: 'PT Serif', serif;
+    font-size: 4em;
+    font-weight: bold;
+    color: #FFD700;
+}
+
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+blockquote {
+    padding: 5px;
+    margin: 10px 0;
+    background-color: rgba(56, 56, 56, 0.36);
+}
+
+.hero-image {
+    border: 4px solid #FFD700;
+    border-radius: 15px;
+    box-shadow: 0 5px 8px rgba(247, 253, 166, 0.5);
+}
+
+.fa {
+    font-size: 4em;
+    color: #FFD700;
+    display: block;
+    text-align: center;
+    padding: 15px;
+}
+
+footer p {
+    font-size: 1.2em;
+    color: #d4d0b9;
+    padding: 5px;
+}
+
+footer .fa {
+    font-size: 1.7em;
+    color: #d4d0b9;
+    display: block;
+    text-align: center;
+}
+
+h4{
+    font-family: 'PT Serif', serif;
+    font-size: 1.5em;
+    color: #FFD700;
+}
+
+/* Footer */
+footer {
+    border-top: 3px solid #FFD700;
+    background-color: #333333;
+    text-align: center;
+    color: #E0E0E0;
+}
+
+footer a:link {
+    text-decoration: none;
+    color: #FFD700;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+.gallery .preview {
+    width: 100%;
+    height: auto;
+}
+
+.gallery .gallery-thumbnails {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery .gallery-thumbnails img {
+    padding-top: 7px;
+    width: 120px;
+    height: 85px;
+    margin: 3px 10px 10px 0;
+}
+
+.gallery .gallery-thumbnails img:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.gallery .preview img#preview {
+    border: 2px solid #FFD700;
+    border-radius: 10px;
+    box-shadow: 0 5px 8px rgba(247, 253, 166, 0.5);
+    padding: 3px;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto !important;
+    display: block !important;
+}
+/* CSS without a media query—applies to all sizes unless overridden */
+
+/* CSS Adjustments for Tablets */
+@media only screen and (max-width: 1024px) {
+    h1 {
+        font-size: 2em;
+    }
+}
+
+/* CSS Adjustments for Smartphones */
+@media only screen and (max-width: 768px) {
+    h1 {
+        font-size: 1.5em;
+    }
+}
