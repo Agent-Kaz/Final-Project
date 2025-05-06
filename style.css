@@ -202,7 +202,7 @@ footer .fa {
 }
 
 #game canvas {
-    background-image: url(images/Back.png);
+    background-image: url(Images/back.png);
     background-size: cover;
 }
 
