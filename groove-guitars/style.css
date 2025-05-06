@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap');
+
+body {
+    background-color: #1c1f26;
+    color: #e4e4e4;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+/* Website Links (excluding nav) */
+a:link {
+    color: #c2a14c;
+}
+
+a:visited {
+    color: #b08d3e;
+}
+
+a:hover {
+    color: #e5c97d;
+}
+
+a:active {
+    color: #c2a14c;
+}
+
+header {
+    text-align: center;
+}
+
+.logo {
+    max-width: 250px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Navigation */
+nav {
+    background: linear-gradient(to right, #2e3b4e, #4a6378);
+    border-top: 2px solid #c2a14c;
+    border-bottom: 2px solid #c2a14c;
+    padding: 5px;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    margin: 8px 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    padding: 5px;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: 600;
+}
+
+nav a:link {
+    color: #e4e4e4;
+}
+
+nav a:visited {
+    color: #d3d3d3;
+}
+
+nav a:hover {
+    color: #c2a14c;
+}
+
+nav a:active {
+    color: #b08d3e;
+}
+
+#home-hero {
+    background-image: url(images/guitars.jpg);
+    height: 550px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#home-hero h1 {
+    text-align: center;
+    color: #c2a14c;
+    font-style: italic;
+    text-shadow: 2px 2px 4px rgba(194, 161, 76, 0.7);
+    margin: 0;
+    padding: 10px;
+    background-color: rgba(28, 31, 38, 0.7);
+}
+
+/* Images */
+.float-right {
+    float: right;
+    max-width: 40%;
+    height: auto;
+    margin-left: 30px;
+    padding: 3px;
+}
+
+.float-left {
+    float: left;
+    max-width: 40%;
+    height: auto;
+    margin-right: 5px;
+    padding: 3px;
+}
+
+h1, h2 {
+    text-align: center;
+    font-style: italic;
+    color: #c2a14c;
+    text-shadow: 2px 2px 4px rgba(194, 161, 76, 0.7);
+    margin: 0;
+    padding: 10px;
+}
+
+h2 {
+    background-color: #2e3b4e;
+    clear: both;
+}
+
+p {
+    font-size: 17px;
+    line-height: 1.6;
+    padding: 4px;
+}
+
+main {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+/* Tables */
+table {
+    border-collapse: collapse;
+    margin: 20px auto 0 auto;
+    border: 4px solid #c2a14c;
+}
+
+tr:nth-child(even) {
+    background-color: #2a2e36;
+}
+
+th {
+    background-color: #4a6378;
+    color: white;
+    padding: 10px;
+    border-bottom: 4px solid #c2a14c;
+}
+
+td {
+    border: 1px solid #4a6378;
+    padding: 10px;
+}
+
+/* Forms */
+form {
+    background-color: rgba(46, 59, 78, 0.3);
+    max-width: 350px;
+    border: 2px solid #c2a14c;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+label {
+    float: left;
+    width: 8em;
+    padding-right: 1em;
+}
+
+input, textarea {
+    margin-bottom: 1em;
+    display: block;
+}
+
+input[type=submit] {
+    display: block;
+    background-color: #4a6378;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+input[type=submit]:hover {
+    background-color: #2e3b4e;
+}
+
+/* Video */
+.video-container {
+    overflow: hidden;
+    position: relative;
+    width:100%;
+}
+
+.video-container::after {
+    padding-top: 56.25%;
+    display: block;
+    content: '';
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+}
+
+/* Footer */
+footer {
+    background: linear-gradient(to right, #2e3b4e, #4a6378);
+    border-top: 2px solid #c2a14c;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+
+/* CSS Adjustments for Tablets */
+@media only screen and (max-width: 1024px) {
+    h1 {
+        font-size: 2em;
+    }
+}
+
+/* CSS Adjustments for Smartphones */
+@media only screen and (max-width: 768px) {
+    h1 {
+        font-size: 1.5em;
+    }
+}
