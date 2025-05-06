@@ -55,7 +55,7 @@ header h1 {
 }
 
 #home-hero {
-    background-image: url(images/homehero.png);
+    background-image: url(Images/homehero.png);
     background-size: cover;
     background-position: center;
     height: 350px;
