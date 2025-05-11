@@ -140,6 +140,14 @@ h1 {
     margin: 0;
 }
 
+.ResumeContainer {
+    max-width: 830px;
+    margin: 0 auto;
+    padding: 20px;
+    border: #ffffffab solid 3px;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.623);
+}
+
 canvas {
     border: 1px solid #424242;
     background-color: #212121;
